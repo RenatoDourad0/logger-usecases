@@ -1,0 +1,10 @@
+{"Timestamp":"2023-11-01T11:28:55.4558628-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"04b25059-69a9-42d9-ad21-80b8acc9c8ec","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:55.7230706-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"d15a4daa-366c-41a9-8701-4f5d00b9b660","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:56.7174007-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"2ed61265-d14b-4e3c-8c66-dd7b7dd7395e","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:56.7185663-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"0aa89e2f-8fcc-4899-af4d-41fa1726a033","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:56.719145-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"f0c2a660-538e-4b2a-bc94-7c4926604331","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:56.9038401-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"0cf8c250-f4e8-48d6-b02e-52fafa51e08b","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:57.8950823-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"05a1f746-2e1d-44eb-af82-08f4412b0d2d","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:58.9059481-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"54f7d57d-b12b-4323-b452-997467b3f642","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:28:59.9135826-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"5e2a4d4b-ada9-4dae-b925-212871455d20","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}
+{"Timestamp":"2023-11-01T11:29:00.9049782-03:00","Level":"Debug","Message":"teste","Application":"minimal-pubSub","CorrelationId":"c72eb532-7c27-4620-aa90-a9451a915578","StatusCode":"200","Data":"{\"cpf\":\"***\"}"}

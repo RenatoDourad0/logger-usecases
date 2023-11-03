@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\renato.dourado\\Documents\\git_local\\dummy_.net_api\\MinimalPubSub\\MinimalPubSub.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\logger.csproj": {
+      "version": "1.0.3",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\logger.csproj",
+        "projectName": "AeC.digitalJourney.Lib.Monitor",
+        "projectPath": "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\logger.csproj",
+        "packagesPath": "C:\\Users\\renato.dourado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\NuGet.Config",
+          "C:\\Users\\renato.dourado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "http://192.168.225.121:5555/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1803"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Cloud.Functions.Framework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Google.Cloud.PubSub.V1": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Fluentd": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\renato.dourado\\Documents\\git_local\\dummy_.net_api\\MinimalPubSub\\MinimalPubSub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\renato.dourado\\Documents\\git_local\\dummy_.net_api\\MinimalPubSub\\MinimalPubSub.csproj",
+        "projectName": "MinimalPubSub",
+        "projectPath": "C:\\Users\\renato.dourado\\Documents\\git_local\\dummy_.net_api\\MinimalPubSub\\MinimalPubSub.csproj",
+        "packagesPath": "C:\\Users\\renato.dourado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\renato.dourado\\Documents\\git_local\\dummy_.net_api\\MinimalPubSub\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\renato.dourado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\logger.csproj": {
+                "projectPath": "C:\\Users\\renato.dourado\\Documents\\git_local\\AeC_logger\\logger\\logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Cloud.PubSub.V1": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.24.4, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
